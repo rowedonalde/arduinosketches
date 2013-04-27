@@ -16,7 +16,7 @@ int tone_output = 8;
 void setup() {
 }
 
-void loop(){
+void loop() {
   int note = rand() % NOTE_DS8;
   tone(tone_output, note, 100);
   delay(100);
